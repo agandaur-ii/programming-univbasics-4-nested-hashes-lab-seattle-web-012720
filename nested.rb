@@ -89,7 +89,9 @@ def adding_matz
     new_hash = yukihiro_matsumoto => {
      :known_for => "Ruby",
      :languages => ["LISP", "C"]
-    }
+    }.merge(programmer_hash)
+    
+    return new_hash
     
 end
 
